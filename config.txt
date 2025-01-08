@@ -1,0 +1,4 @@
+﻿PSK=""
+PORT="/dev/ttyUSB0"
+INDEX="0"
+CHANNEL_NAME="Primary"
