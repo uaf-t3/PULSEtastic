@@ -1,4 +1,3 @@
-﻿PSK=""
+CHANNEL_NAME="CustomChannelName"
+CHANNEL_PSK="YourSecretKeyHere"
 PORT="/dev/ttyUSB0"
-INDEX="0"
-CHANNEL_NAME="Primary"

@@ -2,6 +2,7 @@
 
 import meshtastic
 import meshtastic.serial_interface
+import sys
 
 def load_config(filename="config.txt"):
     """Load key-value pairs from a simple config file."""
@@ -15,37 +16,32 @@ def load_config(filename="config.txt"):
                 key, val = line.split("=", 1)
                 cfg[key.strip()] = val.strip().strip('"')
     except FileNotFoundError:
-        print(f"Warning: {filename} not found. Using defaults.")
+        pass
     return cfg
 
-def main():
-    # 1) Load the config
+def main(message):
+    # Load the config
     config = load_config()
 
-    # 2) Get PORT and INDEX from the config, or use defaults
+    # Get PORT and INDEX from the config, or use defaults
     port = config.get("PORT", "/dev/ttyUSB0")
     index_str = config.get("INDEX", "0")
     try:
         channel_index = int(index_str)
     except ValueError:
-        print(f"Invalid INDEX in config ({index_str}), defaulting to 0.")
         channel_index = 0
 
-    # 3) Initialize the Meshtastic interface
+    # Initialize the Meshtastic interface
     interface = meshtastic.serial_interface.SerialInterface(port)
 
-    print(f"Meshtastic node ready on port {port}, channel index {channel_index}.")
-    print("Enter a message and press Enter to send. Press Ctrl+C to exit.")
-
     try:
-        while True:
-            message = input("Type your message: ")
-            interface.sendText(message, channelIndex=channel_index)
-            print("Message sent!")
-    except KeyboardInterrupt:
-        print("\nExiting...")
+        interface.sendText(message, channelIndex=channel_index)
     finally:
         interface.close()
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) > 1:
+        message = sys.argv[1]
+        main(message)
+    else:
+        print("No message provided")
