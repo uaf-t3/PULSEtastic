@@ -5,7 +5,7 @@ cd "$(dirname "$0")"
 
 # Check if the virtual environment directory exists
 if [ ! -d "meshtastic-env" ]; then
-    echo "Virtual environment not found. Please create it using 'python3 -m venv meshtastic-env'"
+    echo "Virtual environment not found. Please create it using 'python3 -m venv meshtastic-env' or with the setup script"
     exit 1
 fi
 

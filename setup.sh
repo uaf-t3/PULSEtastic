@@ -17,6 +17,7 @@ install_dependencies() {
   pip install --upgrade pip
   echo "Installing Meshtastic Python package..."
   pip install meshtastic
+  pip install pubsub
   echo "Dependencies installed successfully."
 }
 
@@ -73,3 +74,10 @@ echo "Rebooting the node..."
 meshtastic --port "$PORT" --reboot
 
 echo "All done! Your Meshtastic node should now use the specified PSK."
+chmod +x receiver.sh
+chmod +x nr-sender.sh
+chmod +x setup.sh
+chmod +x sender.sh
+chmod +x receiver.py
+
+echo "All necessary scripts have been made executable."

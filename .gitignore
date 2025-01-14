@@ -1,5 +1,4 @@
 meshtastic-env
-.reciver.py
-receiver.py
 publicConfig.txt
 privateConfig.txt
+output.log
