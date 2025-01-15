@@ -1,0 +1,149 @@
+[
+    {
+        "id": "71ba6b4b88b2983e",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d63b921a9a911983",
+        "type": "inject",
+        "z": "71ba6b4b88b2983e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 450,
+        "y": 340,
+        "wires": [
+            [
+                "bd0d3e707a7547a6"
+            ]
+        ]
+    },
+    {
+        "id": "function_node",
+        "type": "function",
+        "z": "71ba6b4b88b2983e",
+        "name": "Format Command",
+        "func": "msg.payload = `/path/to/file/nr-sender.sh ${msg.payload}`;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 340,
+        "wires": [
+            [
+                "exec_node"
+            ]
+        ]
+    },
+    {
+        "id": "exec_node",
+        "type": "exec",
+        "z": "71ba6b4b88b2983e",
+        "command": "",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Execute Python Script",
+        "x": 1040,
+        "y": 340,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "bd0d3e707a7547a6",
+        "type": "Number",
+        "z": "71ba6b4b88b2983e",
+        "name": "Test Data Stream",
+        "minimum": "0",
+        "maximum": "9999",
+        "roundTo": "0",
+        "Floor": true,
+        "x": 630,
+        "y": 340,
+        "wires": [
+            [
+                "function_node"
+            ]
+        ]
+    },
+    {
+        "id": "0b34f84ac5c76e9f",
+        "type": "debug",
+        "z": "71ba6b4b88b2983e",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "9fc30d22449009b1",
+        "type": "pythonshell in",
+        "z": "71ba6b4b88b2983e",
+        "name": "",
+        "pyfile": "",
+        "virtualenv": "",
+        "continuous": true,
+        "stdInData": false,
+        "x": 620,
+        "y": 480,
+        "wires": [
+            [
+                "0b34f84ac5c76e9f"
+            ]
+        ]
+    },
+    {
+        "id": "c184d14af62b3c9d",
+        "type": "comment",
+        "z": "71ba6b4b88b2983e",
+        "name": "To Send",
+        "info": "",
+        "x": 720,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "94e1b94536a68549",
+        "type": "comment",
+        "z": "71ba6b4b88b2983e",
+        "name": "To Receive",
+        "info": "",
+        "x": 720,
+        "y": 440,
+        "wires": []
+    }
+]

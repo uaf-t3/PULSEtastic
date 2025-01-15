@@ -109,11 +109,11 @@ PULSEtastic provides a set of tools designed to simplify the use of Meshtastic n
 PULSEtastic was designed to work with Node-RED flows. Example flows are provided in the repository, along with a link to the custom Node-RED palette.
 
 - **Node-RED Python Node**: [https://flows.nodered.org/node/node-red-contrib-pythonshell]
-- **Example Flows**: [Insert Link Here]
+- **Example Flows**: [https://raw.githubusercontent.com/ItalianSquirel/PULSEtastic/refs/heads/main/assets/pulsetasticFlow.json]
 
 Below is a preview of the Node-RED flow:
 
-![Node-RED Flow Example](https://raw.githubusercontent.com/ItalianSquirel/PULSEtastic/refs/heads/main/images/meshNodes.png)
+![Node-RED Flow Example](https://raw.githubusercontent.com/ItalianSquirel/PULSEtastic/refs/heads/main/assets/meshNodes.png)
 
 ## Contributing
 
