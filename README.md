@@ -1,5 +1,5 @@
 
-# PULSEtastic
+![PULSEtastic Logo](https://raw.githubusercontent.com/ItalianSquirel/PULSEtastic/refs/heads/main/assets/pulseLogo.png)
 
 **Some tools to make using your Meshtastic nodes via a serial connection all the easier!**
 
