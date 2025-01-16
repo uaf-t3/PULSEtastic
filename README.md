@@ -22,7 +22,7 @@ PULSEtastic provides a set of tools designed to simplify the use of Meshtastic n
 
 - **Python**: Ensure Python (preferably version 3.7 or higher) is installed on your system.
 - **Shell Environment**: A Unix-like shell environment for executing shell scripts.
-- **Meshtastic Nodes**: Ensure you have your Meshtastic hardware ready and connected.
+- **Meshtastic Nodes**: Ensure you have your Meshtastic hardware ready for communication and enable serial communications in the radio configuration.
 - **Node-RED**: Install Node-RED on your system for using the provided flows.
 
 ### Setup Instructions
