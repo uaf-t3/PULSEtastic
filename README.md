@@ -2,6 +2,8 @@
 ![PULSEtastic Logo](https://raw.githubusercontent.com/ItalianSquirel/PULSEtastic/refs/heads/main/assets/pulseLogo.png)
 
 **Some tools to make using your Meshtastic nodes via a serial connection all the easier!**
+___
+![https://img.shields.io/badge/Node--Red-8F0000?style=for-the-badge&logo=nodered&logoColor=white](github.com)
 
 ## Overview
 
