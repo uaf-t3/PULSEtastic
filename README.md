@@ -2,9 +2,9 @@
 ![PULSEtastic Logo](https://raw.githubusercontent.com/ItalianSquirel/PULSEtastic/refs/heads/main/assets/pulseLogo.png)
 
 **Some tools to make using your Meshtastic nodes via a serial connection all the easier!**
-___
-![https://img.shields.io/badge/Node--Red-8F0000?style=for-the-badge&logo=nodered&logoColor=white](github.com)
 
+<img src="https://img.shields.io/badge/Node--Red-8F0000?style=for-the-badge&logo=nodered&logoColor=white" /> <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" /> <img src="https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=GNU%20Bash&logoColor=white" /> <img src="https://img.shields.io/badge/MIT-green?style=for-the-badge" />
+___
 ## Overview
 
 PULSEtastic provides a set of tools designed to simplify the use of Meshtastic nodes through a serial connection. This project was originally developed for integration with a **Node-RED flow**, making it even easier to automate and visualize interactions with your Meshtastic network. Example flows and a highly useful Node-RED palette are provided to help you get started.
