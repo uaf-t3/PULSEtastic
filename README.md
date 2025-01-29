@@ -138,3 +138,4 @@ Their immense help made our research and development possible.
 
 Special thanks to all contributors and the open-source community for their invaluable support and resources.
 
+The code for this project was developed by Petie Deveer (ORCID iD: 0009-0008-2103-6674).
