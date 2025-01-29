@@ -126,5 +126,15 @@ Contributions are welcome! Please fork the repository and create a pull request 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/ItalianSquirel/PULSEtastic/blob/main/LICENSE) file for details.
 
 ## Acknowledgments
+This project is made possible through the generous support of several funding sources dedicated to fostering innovation, research, and education in Alaska. Special thanks to:  
+
+- **[Alaska Center for Energy and Power (ACEP)](https://www.uaf.edu/acep/)** for their leadership in energy research and resilience.  
+- **[The ARCTIC Program](https://thearcticprogram.net/)** for supporting technology innovation and commercialization in Alaska.  
+- **[STORM Project](https://www.uaf.edu/acep/news/2023/acep-and-partners-receive-6-million-to-help-secure-electric-grids.php)** for advancing secure and resilient electric grids in climate-impacted communities.  
+- **[Upward Bound](https://uaf-ub.alaska.edu/)** for empowering first-generation and low-income students in their academic journeys.  
+- **[Undergraduate Research & Scholarly Activity (URSA)](https://www.uaf.edu/ursa/)** for funding and promoting undergraduate research at UAF.  
+
+Their immense help made our research and development possible.
 
 Special thanks to all contributors and the open-source community for their invaluable support and resources.
+
