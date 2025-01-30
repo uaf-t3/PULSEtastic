@@ -128,11 +128,11 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 ## Acknowledgments
 This project is made possible through the generous support of several funding sources dedicated to fostering innovation, research, and education in Alaska. Special thanks to:  
 
-- **[Alaska Center for Energy and Power (ACEP)](https://www.uaf.edu/acep/)** for their leadership in energy research and resilience.  
-- **[The ARCTIC Program](https://thearcticprogram.net/)** for supporting technology innovation and commercialization in Alaska.  
-- **[STORM Project](https://www.uaf.edu/acep/news/2023/acep-and-partners-receive-6-million-to-help-secure-electric-grids.php)** for advancing secure and resilient electric grids in climate-impacted communities.  
-- **[Upward Bound](https://uaf-ub.alaska.edu/)** for empowering first-generation and low-income students in their academic journeys.  
-- **[Undergraduate Research & Scholarly Activity (URSA)](https://www.uaf.edu/ursa/)** for funding and promoting undergraduate research at UAF.  
+- **[University of Alaska Fairbanks Undergraduate Research & Scholarly Activity (URSA) program](https://www.uaf.edu/ursa/)** for funding PULSE & STARTRAM supplies.  
+- **[UAF Alaska Center for Energy and Power (ACEP)](https://www.uaf.edu/acep/)** for serving as the Cyber Pod research home base.  
+- **[Office of Naval Research’s ARCTIC Program](https://thearcticprogram.net/)** for supporting integration into the T3 program.  
+- **[National Science Foundation’s STORM Project](https://www.uaf.edu/acep/news/2023/acep-and-partners-receive-6-million-to-help-secure-electric-grids.php)** for advancing secure and resilient electric grids in climate-impacted communities.  
+- **[UAF Upward Bound and Alaska T3 Program](https://uaf-ub.alaska.edu/)** for being Target STEM program partners and supporting NPHS T3 student beta testing team.
 
 Their immense help made our research and development possible.
 
