@@ -43,7 +43,7 @@ PULSEtastic provides a set of tools designed to simplify the use of Meshtastic n
 2. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/ItalianSquirel/PULSEtastic.git
+   git clone https://github.com/uaf-t3/PULSEtastic.git
    cd PULSEtastic
    ```
 
