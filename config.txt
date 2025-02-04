@@ -1,4 +1,4 @@
 CHANNEL_NAME="CustomChannelName"
-CHANNEL_PSK="YourSecretKeyHere"
+PSK="YourSecretKeyHere"
 INDEX="0"
 PORT="/dev/ttyUSB0"
