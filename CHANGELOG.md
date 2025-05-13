@@ -18,4 +18,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- Removed nonexistent "receiver.sh" from setup script
+- Fixed chmod list in setup.sh & removed nonexistent "receiver.sh"
