@@ -76,7 +76,7 @@ meshtastic --port "$PORT" --reboot
 echo "All done! Your Meshtastic node should now use the specified PSK."
 chmod +x nr-sender.sh
 chmod +x setup.sh
-chmod +x sender.sh
+chmod +x sender.py
 chmod +x receiver.py
 
 echo "All necessary scripts have been made executable."
