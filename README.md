@@ -114,7 +114,6 @@ PULSEtastic was designed to work with Node-RED flows. Example flows are provided
 - [**Example Flows**](https://raw.githubusercontent.com/ItalianSquirel/PULSEtastic/refs/heads/main/assets/pulsetasticFlow.json)
 
 Below is a preview of the Node-RED flow:
-
 ![Node-RED Flow Example](https://raw.githubusercontent.com/ItalianSquirel/PULSEtastic/refs/heads/main/assets/meshNodes.png)
 
 ## Contributing
@@ -130,12 +129,13 @@ This project is made possible through the generous support of several funding so
 
 - **[University of Alaska Fairbanks Undergraduate Research & Scholarly Activity (URSA) program](https://www.uaf.edu/ursa/)** for funding PULSE & STARTRAM supplies.  
 - **[UAF Alaska Center for Energy and Power (ACEP)](https://www.uaf.edu/acep/)** for serving as the Cyber Pod research home base.  
-- **[Office of Naval Research’s ARCTIC Program](https://thearcticprogram.net/)** for supporting integration into the T3 program.  
-- **[National Science Foundation’s STORM Project](https://www.uaf.edu/acep/news/2023/acep-and-partners-receive-6-million-to-help-secure-electric-grids.php)** for advancing secure and resilient electric grids in climate-impacted communities.  
+- **[Office of Naval Research’s ARCTIC Program](https://thearcticprogram.net/)** for supporting integration into the T3 program (ONR Award # N00014-22-1-2049)  
+- **[National Science Foundation’s STORM Project](https://www.uaf.edu/acep/news/2023/acep-and-partners-receive-6-million-to-help-secure-electric-grids.php)** for advancing secure and resilient electric grids in climate-impacted communities (NSF Award #2316402).  
 - **[UAF Upward Bound and Alaska T3 Program](https://uaf-ub.alaska.edu/)** for being Target STEM program partners and supporting NPHS T3 student beta testing team.
 
 Their immense help made our research and development possible.
 
 Special thanks to all contributors and the open-source community for their invaluable support and resources.
 
-The code for this project was developed by Petie Deveer (ORCID iD: 0009-0008-2103-6674).
+The code for this project was developed by: 
+- Petie Deveer (ORCID iD: 0009-0008-2103-6674).
