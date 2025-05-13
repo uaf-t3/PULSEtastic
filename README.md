@@ -49,7 +49,8 @@ PULSEtastic provides a set of tools designed to simplify the use of Meshtastic n
 
 3. **Edit the Configuration**:
 
-   Before running the setup script, open the `config.txt` file and adjust the parameters for your Meshtastic private channel:
+   The configuration file `config.txt` determines the Meshtastic private channel to connect to, and the path to the device for serial connection. This defaults to the `PulseTest` channel.
+   To change the channel or serial port, open the `config.txt` file and adjust the parameters:
 
    ```bash
    nano config.txt
@@ -58,11 +59,11 @@ PULSEtastic provides a set of tools designed to simplify the use of Meshtastic n
    In `config.txt`, you can set the following:
 
    - **PSK**: Pre-Shared Key for the private channel.
-   - **Channel Name**: The name of the channel.
-   - **Channel Index**: The channel index used by your Meshtastic network.
-   - **Node Directory**: The directory or path to the node via the serial connection.
+   - **CHANNEL_NAME**: The name of the channel.
+   - **INDEX**: The channel index used by your Meshtastic device.
+   - **PORT**: The path to the device for serial connection.
 
-4. **Run Setup Script**:
+5. **Run Setup Script**:
 
    Execute the `setup.sh` script to set up the environment:
 
