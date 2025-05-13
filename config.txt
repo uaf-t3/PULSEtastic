@@ -1,4 +1,4 @@
-CHANNEL_NAME="CustomChannelName"
-PSK="YourSecretKeyHere"
-INDEX="0"
+CHANNEL_NAME="PulseTest"
+PSK="Obxd30mFx7YQIVrTGtHBLw=="
+INDEX="1"
 PORT="/dev/ttyUSB0"

@@ -74,7 +74,6 @@ echo "Rebooting the node..."
 meshtastic --port "$PORT" --reboot
 
 echo "All done! Your Meshtastic node should now use the specified PSK."
-chmod +x receiver.sh
 chmod +x nr-sender.sh
 chmod +x setup.sh
 chmod +x sender.sh
